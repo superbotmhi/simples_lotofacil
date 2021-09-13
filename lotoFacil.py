@@ -138,7 +138,6 @@ def cr(t, c):
          'g': 32,  'y': 33,  'b': 34,  'w': 37,  're': 0,  'br': 41,  'bg': 42,  'bb': 44,  'by': 43}
     return '\x1b[' + str(x[c]) + 'm' + str(t) + '\x1b[0m'
 
-
 def nub(nj):
     if nj == 15:
         return 2
@@ -146,8 +145,6 @@ def nub(nj):
         return 3
     else:
         return 4
-
-
 
 def main():
 
